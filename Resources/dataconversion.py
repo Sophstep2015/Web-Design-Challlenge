@@ -8,7 +8,7 @@ a = pd.read_csv("cities.csv")
  
 # to save as html file
 # named as "Table"
-a.to_html("Table.htm")
+a.to_html("Table.htm", index=False)
  
 # assign it to a
 # variable (string)
